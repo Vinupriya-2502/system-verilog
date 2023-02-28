@@ -30,6 +30,8 @@ module prot();
     c1 = new();
     e = p.sum(5,10);
     p.display();
+    c1.disp();
+   
   end
 
 endmodule
