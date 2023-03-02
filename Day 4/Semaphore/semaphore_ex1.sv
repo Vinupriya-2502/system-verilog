@@ -1,5 +1,5 @@
 module semaphore_ex1;
-semaphore sema=new(3);
+  semaphore sema=new(5);
 
 //PROCESS 1
 initial begin
