@@ -19,7 +19,7 @@ module semaphore_ex3;
       begin 
           #1;
           $display("person B Waiting for car, time=%0t", $time); 
-          void'(car_key.try_get(1)); 
+          car_key.try_get(1); 
           $display("person B Got the car, time=%0t", $time); 
           #10;
           car_key.put(1); 
